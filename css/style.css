@@ -1,0 +1,154 @@
+body{
+    background-color: black;
+}
+
+#main{
+    position: absolute;
+    background-image: url(../gfx/pf.png);
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 384px;
+    z-index: 1;
+}
+
+#gameContainer{
+    position: absolute;
+    top: 96px;
+    left: 271px;
+    width: auto;
+    height: auto;
+    z-index: 2;
+}
+
+#animationContainer{
+    position: absolute;
+    top: 0;
+    left: 319px;
+    width: auto;
+    height: auto;
+    z-index: 100;
+}
+
+#gameOverMario{
+    position: absolute;
+    background-image: url(../gfx/go_dr.png);
+    background-size: contain;
+    top: 48px;
+    left: 479px;
+    width: 112px;
+    height: 112px;
+    z-index: 0;
+}
+
+#gameOver{ 
+    position: absolute;
+    background-image: url(../gfx/go.png);
+    background-size: contain;
+    top: 128px;
+    left: 224px;
+    width: 224px;
+    height: 80px;
+    z-index: 0;
+}
+
+#stageCompleted {
+    position: absolute;
+    background-image: url(../gfx/sc.png);
+    background-size: contain;
+    top: 128px;
+    left: 192px;
+    width: 285px;
+    height: 80px;
+    z-index: 0;
+}
+
+#top{
+    position: absolute;
+    background-color: black;
+    top: 79px;
+    left: 81px;
+    width: 112px;
+    height: 16px;
+    z-index: 2;
+}
+
+#score{
+    position: absolute;
+    background-color: black;
+    top: 128px;
+    left: 81px;
+    width: 112px;
+    height: 16px;
+    z-index: 2;
+}
+
+#countViruses{
+    position: absolute;
+    background-color: black;
+    top: 335px;
+    left: 561px;
+    width: 32px;
+    height: 16px;
+    z-index: 2;
+}
+
+#brown{
+    position: absolute;
+    top: 261px;
+    left: 37px;
+    width: 64px;
+    height: 48px;
+    background-size: contain;
+    z-index: 2;
+}
+
+#blue{
+    position: absolute;
+    top: 311px;
+    left: 103px;
+    width: 64px;
+    height: 48px;
+    background-size: contain;
+    z-index: 2;
+}
+
+#yellow{
+    position: absolute;
+    top: 227px;
+    left: 115px;
+    width: 64px;
+    height: 48px;
+    background-size: contain;
+    z-index: 2;
+}
+
+#hand{
+    position: absolute;
+    top: 63px;
+    left: 481px;
+    width: 32px;
+    height: 64px;
+    background-size: contain;
+    z-index: 1;
+}
+
+.boardCells{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+}
+
+.animationCells{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: 100;
+}
+
+.digit{
+    float: left; 
+    display: inline block;
+    height: 16px;
+    background-size: contain;
+}
